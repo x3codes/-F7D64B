@@ -10,3 +10,8 @@ h1 {
 	font-color: black;
 	font-family: Impact;
 }
+
+a {
+	text-decoration: none;
+	color: red;
+}
