@@ -11,10 +11,19 @@
 </head>
 
 <body>
+  <script>
+  window.onload=function(){
+  document.getElementById('play').addEventListener('click', function (e) {
+    e.preventDefault();
+    document.getElementById('audio').play();
+  	});
+  }
+  </script>
 <center>
-<img src="a.png" width=550 height=550 class="shake-slow shake-constant">
-<h1 >Pre-Order merch <a href="https://the1916.bigcartel.com" class="shake-slow shake-constant">here</a></h1>
-</center>
+  <audio id="audio" src="Music/AT4G-At_the_Park.wav"></audio>
+  <a href="#" id="play">
+  <img src="assets/a.png" width=550 height=550 class="shake-slow shake-constant">
+  </a></center>
 </body>
 
 <footer>
