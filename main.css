@@ -1,8 +1,9 @@
 body {
 
-background: #F7D64B;
-background-size: cover;
-background-attachment: fixed;
+	background-image: url('banner.png')
+	background: #F7D64B;
+	background-size: cover;
+	background-attachment: fixed;
 
 }
 
